@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DEFAULT_HEADERS = {
-  'User-Agent': 'HLSStreamAssembler/1.0 (Node.js; +https://github.com/Steimber/hls-stream-downloader)',
+  'User-Agent': 'MyAnimeAnywhere/1.0 (Node.js; +https://github.com/Steimber/MyAnimeAnywhere)',
   'Accept': 'application/vnd.apple.mpegurl, application/x-mpegURL, video/mp2t, */*'
 };
 

@@ -1,9 +1,9 @@
-# HLS Concurrent Stream Downloader ⚡ (`hls-stream-downloader`)
+# MyAnimeAnywhere ⚡ (`Steimber/MyAnimeAnywhere`)
 
 <details open>
 <summary><b>Español (ES)</b></summary>
 
-Descargador y ensamblador CLI de alta concurrencia para flujos de video **HLS (`.m3u8` / RFC 8216)** en Node.js sin dependencias externas. Diseñado para descargar episodios y transmisiones segmentadas utilizando un **pool acotado de workers paralelos** con **vaciado secuencial garantizado en disco**.
+Descargador y ensamblador CLI de episodios y flujos de video **HLS (`.m3u8` / RFC 8216)** de alta concurrencia en Node.js para llevar tus capítulos offline a cualquier dispositivo. Utiliza un **pool acotado de 12 workers paralelos** con **vaciado secuencial garantizado en disco**.
 
 ---
 

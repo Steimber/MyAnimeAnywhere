@@ -1,7 +1,7 @@
 {
-  "name": "hls-stream-downloader",
+  "name": "my-anime-anywhere",
   "version": "1.0.0",
-  "description": "High-concurrency HLS (.m3u8) episodic stream downloader with ordered buffer flushing and automatic retry backoff.",
+  "description": "MyAnimeAnywhere — High-concurrency HLS (.m3u8) episodic stream downloader for offline viewing anywhere.",
   "main": "src/downloader.js",
   "bin": {
     "hls-dl": "./src/cli.js"
