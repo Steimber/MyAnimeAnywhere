@@ -1,0 +1,27 @@
+{
+  "name": "hls-stream-downloader",
+  "version": "1.0.0",
+  "description": "High-concurrency HLS (.m3u8) episodic stream downloader with ordered buffer flushing and automatic retry backoff.",
+  "main": "src/downloader.js",
+  "bin": {
+    "hls-dl": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "hls",
+    "m3u8",
+    "stream-downloader",
+    "concurrency",
+    "rfc8216",
+    "video-segments",
+    "nodejs"
+  ],
+  "author": "Steimber",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

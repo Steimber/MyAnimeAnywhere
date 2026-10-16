@@ -1,0 +1,12 @@
+node_modules/
+downloads/
+*.mp4
+*.ts
+*.m4s
+*.mkv
+.env
+.env.*
+.hlsrc.json
+*.log
+.DS_Store
+Thumbs.db
